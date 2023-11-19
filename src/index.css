@@ -1,0 +1,50 @@
+:root{
+  --color-first:  #940444;
+  --color-second:  #0c7b9b ;
+  --color-thirt:  #3c0464 ;
+  --color-fourth: #241c6c ;
+  --color-fiveth: #27045c ;
+  --color-sixth:   #640c54 ;
+  --color-seventh: #1c0454;
+  --color-eigth: #0c2494;
+  --color-mono-first: #000000;
+  --color-mono-second: #ffffff;
+  --color-mono-thirt: #4a4e69;
+  --color-mono-fourth: #d6d9f1;
+}
+
+/* themes */
+body.light {
+  background-color: var(--color-mono-second);
+  color: black;
+}
+
+body.dark {
+  background-color: var(--color-mono-second);
+  color: var(--color-mono-thirt);
+  --color-mono-second: #000000;
+  --color-mono-first: #ffffff;
+  --color-mono-fourth: #4a4e69;
+  --color-mono-thirt: #d6d9f1;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-mono-second);
+}
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;  
+}
+#root {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+
+

@@ -1,0 +1,336 @@
+.gradientTextTitleTeach {
+    font-size: 2em;
+    background: linear-gradient(to right, var(--color-first), var(--color-sixth), var(--color-thirt), var(--color-seventh));
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+    margin-top: 2%;
+    text-shadow: 2px 2px 4px var(--color-sixth)
+}
+
+.gradientTextBBASubTeach {
+
+    width: 80%;
+    max-width: 700px auto;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, var(--color-seventh), var(--color-fiveth), var(--color-fourth), var(--color-second));
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
+}
+
+.gradientTextSubTeach2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, var(--color-seventh), var(--color-fiveth), var(--color-fourth), var(--color-second));
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.containertitlesTech {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    min-width: 360;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.BtnTeach {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 33px;
+    height: 33px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: var(--color-first);
+}
+
+/* plus sign */
+.sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign svg {
+    width: 17px;
+}
+
+.sign svg path {
+    fill: white;
+}
+
+/* text */
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: 0.3s;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* hover effect on button width */
+.BtnTeach:hover {
+    width: 125px;
+    margin-left: -46px;
+    border-radius: 40px;
+    transition-duration: .3s;
+}
+
+.BtnTeach:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+}
+
+/* hover effect button's text */
+.BtnTeach:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+}
+
+/* button click effect*/
+.BtnTeach:active {
+    transform: translate(2px, 2px);
+}
+
+/*Select Text*/
+.selectTextTeach {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    color: var(--color-seventh);
+
+}
+
+.labelTeach {
+    font-weight: 600;
+
+}
+
+/* LOADER */
+
+/* HTML: <div class="loader"></div> */
+
+.loaderTeach {
+    animation: rotate 1s infinite;
+    height: 50px;
+    width: 50px;
+}
+
+.loaderTeach:before,
+.loaderTeach:after {
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+
+.loaderTeach:before {
+    animation: ball1 1s infinite;
+    background-color: var(--color-first);
+    box-shadow: 30px 0 0 var(--color-thirt);
+    margin-bottom: 10px;
+}
+
+.loaderTeach:after {
+    animation: ball2 1s infinite;
+    background-color: var(--color-second);
+    box-shadow: 30px 0 0 var(--color-eigth);
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg) scale(0.8);
+        -moz-transform: rotate(0deg) scale(0.8);
+    }
+
+    50% {
+        -webkit-transform: rotate(360deg) scale(1.2);
+        -moz-transform: rotate(360deg) scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: rotate(720deg) scale(0.8);
+        -moz-transform: rotate(720deg) scale(0.8);
+    }
+}
+
+@keyframes ball1 {
+    0% {
+        box-shadow: 30px 0 0 var(--color-first);
+    }
+
+    50% {
+        box-shadow: 0 0 0 var(--color-fiveth);
+        margin-bottom: 0;
+        -webkit-transform: translate(15px, 15px);
+        -moz-transform: translate(15px, 15px);
+    }
+
+    100% {
+        box-shadow: 30px 0 0 var(--color-eigth);
+        margin-bottom: 10px;
+    }
+}
+
+@keyframes ball2 {
+    0% {
+        box-shadow: 30px 0 0 var(--color-second);
+    }
+
+    50% {
+        box-shadow: 0 0 0 var(--color-eigth);
+        margin-top: -20px;
+        -webkit-transform: translate(15px, 15px);
+        -moz-transform: translate(15px, 15px);
+    }
+
+    100% {
+        box-shadow: 30px 0 0 var(--color-second);
+        margin-top: 0;
+    }
+}
+
+
+/* GRID */
+.parentTeach {
+    width: 80%;
+    max-width: 800px;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: auto 30px auto;
+    /* repeat(3, 1fr); */
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding-top: 15px;
+}
+
+.div1Teach {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2Teach {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div3Teach {
+    grid-area: 1 / 2 / 3 / 3;
+    
+}
+
+.div4Teach {
+    grid-area: 1 / 3 / 2 / 4;
+    padding-left: 45px;
+}
+
+.div5Teach {
+    grid-area: 2 / 3 / 3 / 4;
+    padding-left: 45px;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .parentTeach {
+        grid-template-columns: 300px;
+        /* grid-template-rows: repeat(5, 1fr); */
+        margin-left: 0;
+    }
+
+    .div1Teach, .div2Teach, .div3Teach, .div4Teach, .div5Teach {
+        grid-column: 1 / 2;
+        padding-left: 0;
+        height: fit-content;
+    }
+    .div1Teach {
+        grid-row: 1 / 2;
+    }
+    .div2Teach {
+        grid-row: 2 / 3;
+    }
+    .div3Teach {
+        grid-row: 3 / 4;
+        display: flex;
+        justify-content: center;
+    }
+    .div4Teach {
+        grid-row: 4 / 5;
+    }
+    .div5Teach{
+        grid-row: 5 / 6;
+    }
+}
+
+/* Container descript */
+
+
+.buttonCalculate {
+    border: none;
+    outline: none;
+    background-color: var(--color-eigth);
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+  }
+  
+  .button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
+
+  .result{
+    color: var(--color-fourth);
+  }
+  .resultText{
+    color: var(--color-first);
+    font-size: 16px;
+  }
+  .typeMesurement{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: var(--color-first);
+  }
+  .measurementResponsive{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }

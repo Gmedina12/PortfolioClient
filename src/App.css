@@ -1,0 +1,39 @@
+
+
+::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-second); 
+    border-radius: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-horizontal {
+    height: 2px;   
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: var(--color-mono-second); 
+    border-radius: 8px; 
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background-color: var(--color-mono-second)
+}
+
+
+body {
+    scrollbar-color: var(--color-thirt) #f1f1f1;
+    scrollbar-width: thin;
+}
+
+.appContainer {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
