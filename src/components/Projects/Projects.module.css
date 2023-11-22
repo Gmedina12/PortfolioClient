@@ -35,7 +35,6 @@
 
 
 .projects{
-    padding-left: 20px;
     margin-top: 5%;
     background: radial-gradient(circle at 100% 100%, var(--color-mono-second) 0, var(--color-mono-second) 6px, transparent 6px) 0% 0%/10px 10px no-repeat,
             radial-gradient(circle at 0 100%, var(--color-mono-second) 0, var(--color-mono-second) 6px, transparent 6px) 100% 0%/10px 10px no-repeat,
@@ -46,7 +45,7 @@
             linear-gradient(168deg, #640c54 16%, #24045c 30%, #24045c 42%, #1c0454 54%, #0c4c9c 66%, rgba(2, 158, 223, 0.81) 79%, #0c7b9b 92%),
             linear-gradient(90deg, transparent 0%, #48abe0 100%);
 border-radius: 10px;
-padding: 19px;
+padding: 39px;
 box-sizing: border-box;
 }
 
