@@ -14,7 +14,6 @@ export const Home = () => {
                 I'm a full-stack developer with a passion for learning and growth in the tech industry, always ready to embrace new challenges. 👩‍💻💻 <br/><br/>
                 While I could label myself a nerd due to my love of technology, I'm specifically a dedicated Financist 📊 and a passionate full-stack developer at heart. Beyond coding, I'm a chess enthusiast ♟️ and an animal lover 😻.
                 </p>
-
             </div>
             <div className={style.quoteOW}>
                 <p><i>"Be yourself, the rest of the roles are already taken".</i></p><br/>
