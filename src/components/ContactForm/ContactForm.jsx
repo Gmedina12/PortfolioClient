@@ -115,7 +115,7 @@ export const ContactForm = () => {
     onInput={(e) => e.target.setCustomValidity('')} />
         </label>
       </div>
-      {!isValidSubject(subject) && <p>{toast.error(Error.message, {
+      {!isValidSubject(subject) && <p className={style.poculta}>{toast.error(Error.message, {
           position: 'top-right',
           autoClose: 5000,
           hideProgressBar: false,

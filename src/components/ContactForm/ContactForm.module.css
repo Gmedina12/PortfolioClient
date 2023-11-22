@@ -108,3 +108,7 @@ input {
 input:focus {
     outline: none;
 }
+
+.poculta{
+    color: var(--color-mono-first);
+}
