@@ -13,7 +13,7 @@ export const ContactPage = () => {
 
 
             <div className={style.containerButton}>
-                <a href='https://drive.google.com/file/d/1Muxe7VsQ24OrXjqu2U4Q-OXEvxaWvO5L/view?usp=drive_link'>
+                <a href='https://drive.google.com/file/d/1h4AcR0hoAFR0ySJsnddp-8yN3lez936x/view?usp=drive_link'>
                     <button className={style.buttonDownload}>Descargar CV - ES</button>
                 </a>
             </div>
@@ -21,7 +21,7 @@ export const ContactPage = () => {
             <br/>
 
             <div className={style.containerButton}>
-                <a href='https://drive.google.com/file/d/1I278jvSv03UI3oqEqJo8xsi7aBbvGjqg/view?usp=drive_link'>
+                <a href='https://drive.google.com/file/d/1liJ377iWxeybs898CDHAmBFY9MPRfsqY/view?usp=drive_link'>
                     <button className={style.buttonDownload}>Download CV - EN</button>
                 </a>
             </div><br/><br/>
