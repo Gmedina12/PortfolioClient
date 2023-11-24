@@ -111,4 +111,5 @@ input:focus {
 
 .poculta{
     color: var(--color-mono-second);
+    font-size: 1px;
 }
