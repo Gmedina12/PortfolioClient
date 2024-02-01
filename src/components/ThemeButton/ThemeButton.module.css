@@ -50,7 +50,7 @@ button {
   .buttonPosition{
     width: 100%;
     display: flex;
-    margin-left: 1370px; 
-    /* sé que es una mala práctica, pero funciona, no me juzguen :( */
+    justify-content: end;
+    margin-right: 5%;
     padding-top: 15px;
   }
