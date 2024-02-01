@@ -13,7 +13,7 @@ export const TechExperience = () => {
                     <p>Mobile Developer Dic 2023 - Currently    </p>
                     <ul>
                         <li>Development of a mobile application for a Startup.</li>
-                        <li>Frontend: Flutter (Dart), Styled Componentes, HTML5 and Backend request on</li>
+                        <li>Frontend: Flutter (Dart), Styled Components, HTML5 and Backend request on Dart to TS</li>
                         <li>Version Control: Git and Github - ASANA for tickets, issues, and planning</li>
                         <li>Test: Manual Blackbox testing</li>
                         <li>Documentation Drafting on Notion</li>

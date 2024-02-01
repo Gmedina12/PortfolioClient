@@ -5,6 +5,43 @@ export const Projects = () => {
             <div className={style.gradientProjects}>
                 <h2>Projects</h2>
             </div>
+            <div className={style.containerProject}>
+                <p className={style.projects}>
+                    <h4>Dra. Patricia Londoño (Current Client) - Building</h4>
+                    <ul>
+                        <li>Landing: Rendering dentistry, oral reconstruction and facial aesthetics services.</li>
+                        <li>Admin dashboard.</li>
+                        <li>Payment gateway</li>
+                    </ul>
+                </p>
+                <div className={style.techUsedInProjects}>
+                    <h3 align="left">Languages and Tools:</h3>
+                    <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" /> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" /> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" /> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" /> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40" /> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40" /> </a> </p> <br/>
+                    <div>
+                    <label>Github Repo: </label>
+                <a href="https://github.com/Gmedina12/draPLond_Prom"><button className={style.button}><img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/></button></a>
+            </div>
+                </div>
+            </div>
+
+            <div className={style.containerProject}>
+                <p className={style.projects}>
+                    <h4>TravelApp (Countries Mobile version) - Building</h4>
+                    <ul>
+                        <li>Home view (widget).</li>
+                        <li>Rendering countries flags and basic information like, location map, continent, population and capital</li>
+                        <li>Create,delete, rate and consult new touristic activities by countries.</li>
+                    </ul>
+                </p>
+                <div className={style.techUsedInProjects}>
+                    <h3 align="left">Languages and Tools:</h3>
+                    <p align="left"> <a href="https://dart.dev/" target="_blank" rel="noreferrer"> <img src="https://profilinator.rishav.dev/skills-assets/dartlang-icon.svg" alt="Dart" width="40" height="40" /> </a>  <a href="https://flutter.dev/" target="_blank" rel="noreferrer"> <img src="https://profilinator.rishav.dev/skills-assets/flutterio-icon.svg" alt="flutter" width="40" height="40" /> <a href="https://www.cplusplus.com/" target="_blank" rel="noreferrer"> <img src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="c++" width="40" height="40" /> </a> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" /> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" /> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" /> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" /> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40" /> </a></p> <br/>
+                    <div>
+                    <label>Github Repo: </label>
+                <a href="https://github.com/Gmedina12/PI-Countries-mobile-version"><button className={style.button}><img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/></button></a>
+            </div>
+                </div>
+            </div>
 
             <div className={style.containerProject}>
                 <p className={style.projects}>
