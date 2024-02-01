@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import style from './ThemeButton.module.css';
 
 export const ThemeButton = ({ onClick }) => {
-    const [isDarkTheme, setIsDarkTheme] = useState(false);
+    const [isDarkTheme, setIsDarkTheme] =useState(false);
 
     const handleClick = () => {
         setIsDarkTheme(!isDarkTheme);
