@@ -41,7 +41,6 @@ export const TechExperience = () => {
 
                 </div>
             </div>
-            ------------------------------------------
             <div className={style.container}>
                 <div className={style.expTech}>
                     <p>
